@@ -1,5 +1,5 @@
 {
-  "name": "ece-userapi",
+  "name": "anwar-userapi",
   "version": "1.0.0",
   "description": "User API web application",
   "main": "src/index.js",
@@ -7,7 +7,7 @@
     "start": "node src/index.js",
     "test": "mocha test/*.js"
   },
-  "author": "Sergei Kudinov",
+  "author": "Anwar Timilla",
   "license": "",
   "dependencies": {
     "express": "^4.17.2",
