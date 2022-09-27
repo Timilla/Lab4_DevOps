@@ -64,5 +64,5 @@ npm test
 
 ## Author
 
-Sergei Kudinov   
-sergei@adaltas.com
+Anwar Timilla 
+anwar.timilla@gmail.com
