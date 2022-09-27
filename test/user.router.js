@@ -22,9 +22,9 @@ describe('User REST API', () => {
 
     it('create a new user', (done) => {
       const user = {
-        username: 'sergkudinov',
-        firstname: 'Sergei',
-        lastname: 'Kudinov'
+        username: 'Timillan',
+        firstname: 'Anwar',
+        lastname: 'Timilla'
       }
       chai.request(app)
         .post('/user')
@@ -42,8 +42,8 @@ describe('User REST API', () => {
     
     it('pass wrong parameters', (done) => {
       const user = {
-        firstname: 'Sergei',
-        lastname: 'Kudinov'
+        firstname: 'Anwar',
+        lastname: 'Timilla'
       }
       chai.request(app)
         .post('/user')

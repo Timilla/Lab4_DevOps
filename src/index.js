@@ -16,8 +16,8 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json())
 
 app.get('/', (req, res) => res.json({
-    name: 'Anwar Timilla',
-    email: 'anwar.timilla@gmail.com'
+    name: 'Soukaina Timilla',
+    email: 'soukaina.ni3ma@gmail.com'
 }))
 
 app.use('/user', userRouter)
